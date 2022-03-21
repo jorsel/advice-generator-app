@@ -8,3 +8,5 @@ https://jorsel.github.io/advice-generator-app/ <br />
 # TODO
 App is caching in firefox, making it only get advice once. <br />
 App is misshapen in Internet Explorer <br />
+API gives same response when asked within 2 seconds of last request.
+Add some kind of warning when spamming requests.
