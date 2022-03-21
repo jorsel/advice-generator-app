@@ -81,6 +81,7 @@ body {
 
 }
 #theme_div{
+    display: none;
     background-color: aliceblue;
     width: 35px;
     height: 35px;
