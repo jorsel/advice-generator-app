@@ -1,3 +1,4 @@
 # Advice generator app
 
 Advice generator app built with the provided frontend mentor design.
+Advice is being fetched from the [advice slip api](https://api.adviceslip.com/)
