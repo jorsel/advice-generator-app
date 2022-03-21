@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/dice.png">
+
+  <title>Advice generator app</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <script src="javascript.js"></script>
+</head>
+
+<body>
+  <div id="content">
+    <div id="card">
+      <p id="advice_id"></p>
+      <p id="advice_text">Ask away.</p>
+      <div id="divider"> </div>
+      <div id="btn_parent">
+        <button id="btn_div">
+          <img src="icon-dice.svg" id="dice_button_img" onclick="getAdvice()" />
+
+        </button>
+      </div>
+
+    </div>
+    <footer>
+      <div class="attribution">
+        Coded by <a href="#">Jørgen Selsøyvold</a> <br>
+        Using <a href="https://api.adviceslip.com/">Advice slip API</a>
+      </div>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>
