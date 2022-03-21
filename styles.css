@@ -80,6 +80,11 @@ body {
     height: 20px;
 
 }
+#theme_div{
+    background-color: aliceblue;
+    width: 35px;
+    height: 35px;
+}
 
 .attribution {
     margin-top: 40px;
