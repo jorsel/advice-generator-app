@@ -10,3 +10,6 @@ function getAdvice() {
             })
     })
 }
+function toggle_theme(){
+    console.log('Do something');
+}
