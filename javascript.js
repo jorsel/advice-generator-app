@@ -1,5 +1,5 @@
 function getAdvice() {
-    let promise = fetch("https://api.adviceslip.com/advice");
+    let promise = fetch("https://api.adviceslip.com/advice", {cache: 'no-store'});
     promise.then(response => {
         response.json()
             //json object has the name of "slip", as in advice slip.
@@ -10,9 +10,3 @@ function getAdvice() {
             })
     })
 }
-
-
-
-/* firefox caches this page,
- have open dev tools while testing or use another browser.
- Api will return same advice if asked within 2 seconds. */
