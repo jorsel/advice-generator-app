@@ -51,6 +51,8 @@ body {
 #advice_text {
     text-align: center;
     margin: 5%;
+    /* To avoid text moving elements on the card */
+    height: 50px;
 }
 
 #btn_div {
@@ -113,9 +115,16 @@ body {
 @media only screen and (max-width: 560px) {
     #card {
         width: 250px;
+        height: 400px;
     }
 
-    #divider {
+    #divider { 
         background: url(pattern-divider-mobile.svg) no-repeat center;
+    }
+    #btn_parent{
+        /*height: 50px; */
+    }
+    #advice_text{
+        height: 150px;
     }
 }
