@@ -6,5 +6,5 @@ Advice is being fetched from the [advice slip api](https://api.adviceslip.com/) 
 https://jorsel.github.io/advice-generator-app/ <br />
 
 # TODO
-Improve mobile scaling
+Improve mobile scaling <br />
 Move re-roll button
